@@ -4,17 +4,17 @@ import ig from '../images/instagram.png'
 const Links = () => 
 {
     return (
-        <div className='mx-3 space-x-2 items-center w-10'>
-            <div className='mt-96'>
-                <button className='mb-3 hover:scale-125'>
-                    <img src={gitHub} alt="github" />
-                </button>
-                <button className='mb-3 hover:scale-125'>
-                    <img src={ig} alt="instagram" />
-                </button>
-                <button className='hover:scale-125'>
-                    <img src={linkedin} alt="linkedin" />
-                </button>
+        <div className='mx-3 space-x-2 items-center w-10 relative'>
+            <div className='absolute top-80'>
+                <a href='https://github.com/silentm4gician' target='_blank' >
+                    <img className='mb-3 hover:scale-125' src={gitHub} alt="github" />
+                </a>
+                <a href='https://www.instagram.com/leandro_gm5/' target='_blank' className='mb-3 hover:scale-125'>
+                    <img className='mb-3 hover:scale-125' src={ig} alt="instagram" />
+                </a>
+                <a href='https://www.linkedin.com/in/leandro-gonz%C3%A1lez-matkovich-857742233/' target='_blank' className='hover:scale-125'>
+                    <img className='mb-3 hover:scale-125' src={linkedin} alt="linkedin" />
+                </a>
             </div>
         </div>
     )
