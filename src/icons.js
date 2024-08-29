@@ -39,14 +39,14 @@ const back =
         name:'SQL Server',
         img:sql
     },
-    {
-        name:'C++',
-        img:cpls
-    },
-    {
-        name:'C#',
-        img:csh
-    },
+    // {
+    //     name:'C++',
+    //     img:cpls
+    // },
+    // {
+    //     name:'C#',
+    //     img:csh
+    // },
 ]
 
 const frameworks = 
