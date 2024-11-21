@@ -6,6 +6,8 @@ const NavBar = () => {
                 <a href="/" className="text-sm lg:text-3xl md:text-xl font-bold font-mono hover:text-sky-300 duration-300"> home </a>
                 // 
                 <a href="/proyects" className="text-sm lg:text-3xl md:text-xl font-bold font-mono hover:text-sky-300 duration-300"> proyects </a>
+                //
+                <a href="/work" className="text-sm lg:text-3xl md:text-xl font-bold font-mono hover:text-sky-300 duration-300"> work </a>
                 // 
                 <a href="/skills" className="text-sm lg:text-3xl md:text-xl font-bold font-mono hover:text-sky-300 duration-300"> skills </a>
                 // 
