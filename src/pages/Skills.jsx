@@ -48,7 +48,10 @@ const Skills = () => {
                             </motion.h3>
                             
                             <motion.div 
-                                className={`grid grid-cols-${section.columns} gap-3 rounded-2xl bg-white/10 backdrop-blur-lg border border-white/20 p-3 place-items-center`}
+                                className={`grid ${
+                                    section.columns === 3 ? 'grid-cols-3' : 
+                                    section.columns === 5 ? 'grid-cols-5' : 'grid-cols-1'
+                                  } gap-3 rounded-2xl bg-white/10 backdrop-blur-lg border border-white/20 p-3 place-items-center`}
                                 initial={{ scale: 0.9, opacity: 0 }}
                                 animate={{ scale: 1, opacity: 1 }}
                                 transition={{ duration: 0.5, delay: 0.8 + sectionIndex * 0.2 }}
