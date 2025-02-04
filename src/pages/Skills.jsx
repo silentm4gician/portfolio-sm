@@ -6,7 +6,7 @@ const skillSections = [
   { title: 'Frontend', icons: icons[0], columns: 3 },
   { title: 'Backend', icons: icons[1], columns: 3 },
   { title: 'Frameworks and Libraries', icons: icons[2], columns: 5 },
-  { title: 'Version Control', icons: icons[3], columns: 2 }
+  { title: 'Version Control', icons: icons[3], columns: 3 }
 ];
 
 const Skills = () => {
