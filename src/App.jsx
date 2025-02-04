@@ -1,13 +1,15 @@
 import './App.css'
 import Info from './components/Info'
 import Links from './components/Links'
+import Home from './pages/Home'
 
 function App() 
 {
   return (
       <main>
-        <Info/>
-        <Links/>
+        <Home/>
+        {/* <Info/>
+        <Links/> */}
       </main>
   )
 }

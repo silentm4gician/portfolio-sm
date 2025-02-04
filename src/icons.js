@@ -12,6 +12,8 @@ import csh from '../src/images/icons/csh.png'
 import cpls from '../src/images/icons/c++.png'
 import git from '../src/images/icons/git.png'
 import ghub from '../src/images/github.png'
+import msql from '../src/images/icons/mysql.png'
+import postgre from '../src/images/icons/postgre.png'
 
 const front = 
 [
@@ -35,18 +37,18 @@ const back =
         name:'NodeJS',
         img:node
     },
+    // {
+    //     name:'SQL Server',
+    //     img:sql
+    // },
     {
-        name:'SQL Server',
-        img:sql
+        name:'MySQL',
+        img:msql
     },
-    // {
-    //     name:'C++',
-    //     img:cpls
-    // },
-    // {
-    //     name:'C#',
-    //     img:csh
-    // },
+    {
+        name:'PostgreSQL',
+        img:postgre
+    }
 ]
 
 const frameworks = 
