@@ -24,8 +24,8 @@ export const proyects = [
     name: "Luxmagius",
     img: lux,
     desc: "web app to share photo galleries",
-    link: "https://luxmagius.vercel.app",
-    repo: "https://github.com/silentm4gician/luxmagius",
-    techs: ["Next.js", "Tailwind CSS", "ReactJS", "Firebase"],
+    link: "https://luxmagius.site",
+    // repo: "https://github.com/silentm4gician/luxmagius",
+    techs: ["Next.js", "Tailwind CSS", "ReactJS", "Firebase", "GoogleCloud"],
   },
 ];
