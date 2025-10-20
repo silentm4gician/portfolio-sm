@@ -25,6 +25,14 @@ const landingPages = [
     githubUrl: null,
     image: "/robin.png",
   },
+  {
+    title: "Municipalidad Tafi Viejo",
+    description: "Landing page for the municipalidad of Tafi Viejo projects",
+    tech: ["Vite.js", "React.js", "Tailwind CSS"],
+    liveUrl: "https://proyectos-muni.netlify.app",
+    githubUrl: null,
+    image: "/muni.png",
+  },
 ];
 
 const streamingApps = [
@@ -68,7 +76,7 @@ export function Projects() {
             <h3 className="text-2xl font-semibold mb-6 text-primary">
               Landing Pages
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {landingPages.map((project) => (
                 <ProjectCard key={project.title} {...project} />
               ))}
