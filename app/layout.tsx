@@ -6,6 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://silentm4gician.netlify.app"),
   title: "Leandro González Matkovich | Web Developer",
   description:
     "Portfolio of Leandro González Matkovich - Freelance Web Developer specializing in Next.js, React.js, and Tailwind CSS",
