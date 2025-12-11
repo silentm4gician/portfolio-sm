@@ -70,7 +70,7 @@ export function Contact() {
           <div className="flex items-center gap-3">
             <Notebook className="h-5 w-5 text-primary" />
             <a
-              href="https://drive.google.com/file/d/1IuL5-7lo1Qwgdhl-mRvQOjKIdOHe68OJ/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1nV8MeDGvCw7gHoTRWfxCNQDQOn17piEQ/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors"

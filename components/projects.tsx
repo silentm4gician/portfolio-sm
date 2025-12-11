@@ -48,7 +48,7 @@ const streamingApps = [
     title: "GriddyMovies",
     description: "Web app to watch series and movies",
     tech: ["Next.js", "React.js", "Tailwind CSS", "TMDB API"],
-    liveUrl: "https://www.griddy-movies.site/",
+    liveUrl: "https://griddymovies.netlify.app",
     githubUrl: "https://github.com/silentm4gician/griddy-movies",
     image: "/griddy.png",
   },
@@ -63,6 +63,15 @@ const webPlatforms = [
     githubUrl: null,
     image: "/luxmagius.png",
   },
+  {
+    title: "Mis Consultas",
+    description:
+      "Web platform to save and manage patient, medical record and medical appointments",
+    tech: ["Next.js", "Tailwind CSS", "Firebase"],
+    liveUrl: "https://silentm4gician.netlify.app/misc.png",
+    githubUrl: null,
+    image: "https://mis-consultas.vercel.app/favicon.png",
+  },
 ];
 
 export function Projects() {
@@ -74,10 +83,10 @@ export function Projects() {
         <div className="space-y-16">
           <div>
             <h3 className="text-2xl font-semibold mb-6 text-primary">
-              Landing Pages
+              Web Platforms
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {landingPages.map((project) => (
+              {webPlatforms.map((project) => (
                 <ProjectCard key={project.title} {...project} />
               ))}
             </div>
@@ -96,10 +105,10 @@ export function Projects() {
 
           <div>
             <h3 className="text-2xl font-semibold mb-6 text-primary">
-              Web Platforms
+              Landing Pages
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {webPlatforms.map((project) => (
+              {landingPages.map((project) => (
                 <ProjectCard key={project.title} {...project} />
               ))}
             </div>

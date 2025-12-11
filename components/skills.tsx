@@ -9,12 +9,19 @@ const skillCategories = [
   {
     category: "Frameworks & Libraries",
     icon: Flame,
-    skills: ["Next.js", "React.js", "Vite.js", "Tailwind CSS", "Bootstrap"],
+    skills: ["Next.js", "React.js", "Vite.js", , "Node.js", "Tailwind CSS"],
   },
   {
     category: "Tools & Services",
     icon: GitBranch,
-    skills: ["Git", "GitHub", "Firebase", "Google Cloud", "Vercel", 'AWS (currently learning)'],
+    skills: [
+      "Git",
+      "GitHub",
+      "Firebase",
+      "Google Cloud",
+      "Vercel",
+      "AWS (currently learning)",
+    ],
   },
 ];
 
